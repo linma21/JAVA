@@ -1,0 +1,9 @@
+package ch01.sec06;
+ //16p
+public class Hello {
+	
+    public static void main(String[] args) {
+	
+}
+
+}
