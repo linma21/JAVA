@@ -39,11 +39,8 @@ public class WhileTest {
 			if(i % 2 ==0) {
 				esum += i;
 			}
-		
-			
-			
-		}
-		while(i <= 10 );
+			i++;
+		}while(i <= 10 );
 		
 		System.out.println("1부터 10까지의 합 : " + esum);
 
@@ -60,7 +57,7 @@ public class WhileTest {
 			num++;
 			
 		}
-		System.out.println("5와 7의 최소공배수" + num);
+		System.out.println("5와 7의 최소공배수 : " + num);
 		
 		
 		

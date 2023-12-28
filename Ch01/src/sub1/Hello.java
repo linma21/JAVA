@@ -20,7 +20,5 @@ public class Hello {
 		
 		//개행처리
 		System.out.print("\nWelcome");
-
-	
 	}
 }
