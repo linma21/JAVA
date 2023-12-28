@@ -4,6 +4,7 @@ package sub01;
  * 이름 : 최이진
  * 내용 : Array 실행
  */
+
 public class ArrayTest {
 	public static void main(String[] args) {
 		
@@ -35,7 +36,7 @@ public class ArrayTest {
 		System.out.println();
 		
 		for(int n : arr1) {
-			//한번 반복할때마다 n자리에 원소 대입
+			//한번 반복할때마다 n 자리에 원소 대입
 			System.out.print(n + " ");
 		}
 		System.out.println();
