@@ -15,8 +15,6 @@ public class Ex04_19 {
 				
 			}
 			System.out.println();
-		}//Loop1의 끝 
-			
+		}//Loop1의 끝 			
 	}
-
 }

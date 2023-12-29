@@ -14,5 +14,4 @@ public class Ex7 {
 			 System.out.println((int)(Math.random()*10+1)); //1<=x<1
 		 }						
 	}
-
 }
