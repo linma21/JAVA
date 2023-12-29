@@ -14,7 +14,7 @@ public class Test4 {
 		
 		System.out.print("점수 입력 :");
 		int score = sc.nextInt();
-		char grade; //문자 대입 char   int 했는데 왜 되나요
+		char grade; //문자 대입 char   
 		
 		System.out.println("입력한 점수는 " + score+"입니다.");
 		
