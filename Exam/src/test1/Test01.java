@@ -1,6 +1,6 @@
 package test1;
 /*
- * 날짜 : 23/12/27
+ * 날짜 : 23/12/28
  * 이름 : 최이진
  * 내용 :자바 자료형 문제
  */
@@ -14,7 +14,7 @@ public class Test01 {
 		boolean	var6 = true;
 		boolean	var7 = false;
 		String	var8 = "hello";
-		String	var9 = null;
+		String	var9 = null;   //null 은 참조변수의 값이 없음을 의미 - String 은 참조변수
 		
 		
 		System.out.println("var1 : " +var1);
@@ -28,6 +28,4 @@ public class Test01 {
 		System.out.println("var9 : " +var9);
 		
 	}
-	
-
 }

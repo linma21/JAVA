@@ -1,6 +1,6 @@
 package test1;
 /*
- * 날짜 : 23/12/27
+ * 날짜 : 23/12/28
  * 이름 : 최이진
  * 내용 :자바 반복문 문제
  */
@@ -15,8 +15,7 @@ public class Test9 {
 				count++;
 			}else {
 				count--;
-			}
-			
+			}	
 			
 			for(int j=1 ; j<=5-count ; j++) {
 				System.out.print(" ");
@@ -26,9 +25,6 @@ public class Test9 {
 			}
 			
 			System.out.print("\n");
-			
 			}
 	}
-	
-
 }

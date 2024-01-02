@@ -31,5 +31,4 @@ public class Ex4_18 {
 			}
 		scanner.close();
  	}
-
 }

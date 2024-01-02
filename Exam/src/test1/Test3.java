@@ -1,6 +1,6 @@
 package test1;
 /*
- * 날짜 : 23/12/27
+ * 날짜 : 23/12/28
  * 이름 : 최이진
  * 내용 :자바 연산자 문제
  */
@@ -8,21 +8,21 @@ public class Test3 {
 	public static void main(String[] args) {
 		
 		int num = 1;
+		int result;
 				
+		result = num++; //대입 후 증가 
+		System.out.println("result1 : "+result);
 		
+		result = ++num; //증가 후 대입
+		System.out.println("result2 : "+result);
 		
-		int result1 = num++;
-		System.out.println("result1 : "+result1);
+		result = num--;
+		System.out.println("result3 : "+result);
 		
-		int result2 = ++num;
-		System.out.println("result2 : "+result2);
+		result = --num;
+		System.out.println("result4 : "+result);
 		
-		int result3 = num--;
-		System.out.println("result3 : "+result3);
-		
-		int result4 = --num;
-		System.out.println("result4 : "+result4);
+		result = 2*num;
+		System.out.println("result5 : "+result);
 	}
-	
-
 }

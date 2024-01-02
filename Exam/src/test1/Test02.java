@@ -3,7 +3,7 @@ package test1;
 import java.util.Scanner;
 
 /*
- * 날짜 : 23/12/27
+ * 날짜 : 23/12/28
  * 이름 : 최이진
  * 내용 :자바 기본 입출력 문제
  */
@@ -17,7 +17,7 @@ public class Test02 {
 		String name;
 		
 		System.out.println("올해 년도 입력 : " );
-		year = sc.nextInt();
+		year = sc.nextInt(); //nestInt 는 숫자를 입력받을 수 있음
 				
 		System.out.println("태어난 년도 입력 : ");
 		birth =sc.nextInt();
@@ -31,6 +31,4 @@ public class Test02 {
 		
 		sc.close();
 	}
-	
-
 }

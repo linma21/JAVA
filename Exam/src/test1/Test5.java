@@ -3,7 +3,7 @@ package test1;
 import java.util.Scanner;
 
 /*
- * 날짜 : 23/12/27
+ * 날짜 : 23/12/28
  * 이름 : 최이진
  * 내용 : 자바 조건문 문제
  */
@@ -17,7 +17,7 @@ public class Test5 {
 		
 		System.out.println("입력한 점수는 "+score+"입니다.");
 		
-		switch( score /= 10  ) {
+		switch( score / 10  ) {
 		case 10:
 		case 9:
 			System.out.println("A 입니다.");
@@ -36,10 +36,6 @@ public class Test5 {
 			break;
 		
 		}
-		
 		sc.close();
-		
-	}
-	
-
+		}
 }
