@@ -33,7 +33,7 @@ public class StaticTest {
 
 	public static void main(String[] args) { // 이 메서드의 인스턴스(객체)에 모두 접근 가능
 		// Car 객체 생성
-		Car sonata = new Car("소나타", "흰색", 10);
+		Car sonata = new Car("소나타", "흰색", 10);  //public Car(String name, String color, int speed) 에 대입해서 sonata에 입력
 		Car avante = new Car("아반테", "검정", 20);
 		Car grande = new Car("그랜저", "남색", 30);
 

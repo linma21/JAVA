@@ -19,7 +19,7 @@ public class Calc {
 	                                           //Calc instance: Calc 클래스의 인스턴스를 참조할 수 있는 정적 변수 instance 를 선언
 	
 	public static Calc getInstance() {  // - public (접근 제한 없는) static (정적 변수) 선언
-		return instance;                // - 정적 변수 instance 를 쓰기 위해서는(즉, Calc 클래스의 인스턴스를 찹조하기 위해)
+		return instance;                // - 정적 변수 instance 를 쓰기 위해서는(즉, Calc 클래스의 인스턴스를 참조하기 위해)
 		                                //   getInstance 메서드를 사용해야한다.
 	}
 	
