@@ -7,9 +7,13 @@ public class Main3_2 {
 		Scanner sc = new Scanner(System.in);
 		
 		int T = sc.nextInt();
-		int A = sc.nextInt();
-		int B = sc.nextInt();
 		
+		
+		for(int i = 0; i < T ; i++) {
+			int A = sc.nextInt();
+			int B = sc.nextInt();
+			System.out.println(A+B);			
+		}
+		sc.close();
 	}
-
 }
