@@ -23,8 +23,7 @@ public class MethodOverloadTest {
 		System.out.println("r3 : "+r3);
 		System.out.println("r4 : "+r4);
 		
-	}
-	
+	}	
 	//메서드 오버로딩
 	public static int add(int a) {
 		return a + a;

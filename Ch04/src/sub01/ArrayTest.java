@@ -49,6 +49,7 @@ public class ArrayTest {
 			System.out.print(w + " ");
 		}
 	    System.out.println();
+	    
 	    //1차원
 		int[] scores = {80, 60, 78, 62, 92};
 	    int total =0;

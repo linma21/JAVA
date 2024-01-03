@@ -31,7 +31,7 @@ public class MethodTypeTest {
 	             //return 되는 y 값과 같은 타입
 	public static double type1(double x) {
 		
-		double y = (x * x) + 3.14;
+		double y = (x * x) * 3.14;
 		return y;
 	}
 	
@@ -56,8 +56,7 @@ public class MethodTypeTest {
 			return true;
 		}else {
 			return false;
-		}
-		
+		}		
 	}
 	//형태4 - 매개변수 X, 리턴값 X
 	public static void type4() {
@@ -65,6 +64,4 @@ public class MethodTypeTest {
 		double result = type1(2.5);
 		System.out.println("반지름 길이가 2.5인 원의 넓이 :"+ result);
 	}
-	
-
 }
