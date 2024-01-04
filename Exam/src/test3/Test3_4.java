@@ -41,5 +41,4 @@ public class Test3_4 {
 		Student lim = new Student("임꺽정","경영학과",1);
 		lim.studentInfo();
 	}
-
 }

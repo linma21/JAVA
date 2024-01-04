@@ -40,5 +40,4 @@ public class Test3_3 {
 		bmw.drive();
 		bmw.info();
 	}
-
 }

@@ -26,9 +26,6 @@ public class Test3_1 {
 		Test3_1 lee = new Test3_1("이순신",31);
 		
 		kim.show();
-		lee.show();
-		
-		
+		lee.show();		
 	}
-
 }

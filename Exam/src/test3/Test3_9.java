@@ -4,8 +4,8 @@ package test3;
  * 이름 : 최이진
  * 내용 : 자바 추상 클래스, 다형성 연습 문제
  */
-public abstract class Shape {
-	public abstract void draw();
+abstract class Shape {
+	public abstract void draw(); //추상 메서드
 }
 
 class Triangle extends Shape{
