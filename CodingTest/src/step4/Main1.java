@@ -7,18 +7,24 @@ public class Main1 {
 		Scanner sc= new Scanner(System.in);
 		
 		int N = sc.nextInt();
+		int count = 0;
 		
-	   for(int i = 0; i < N; i++){
-		   
-		int A = sc.nextInt();
+		int[] arr = new int[N];
 		
-		   if(i == N) {
-		   int B = sc.nextInt();
-		   }
-		   int t = 0;
-		 
-			
-		}
-	}
+		for(int i=0 ; i<N ; i++) {
+			int A = sc.nextInt();
+		  arr[i] = A;
+	  }
+		int B =sc.nextInt();
+		
+		for(int k = 0; k < N ; k++) {
+		  
+		  if(arr[k] == B) {
+			  count++;
+		  }
+	  }System.out.println(count);
 
-}
+}		  
+}		
+		
+
