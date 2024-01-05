@@ -9,10 +9,10 @@ class King {
 	private int year;
 	
 	public King(int year){
-		this("정조");
+		this("정조");           //this. 은 생성자 호출 ("문자열")이 들어가는 생성자 를 호출한다.
 		this.year = year;
 	}
-	public King(String name){
+	public King(String name){   //("문자열")이 들어가는 생성자 
 		this.name = name;
 		
 	}

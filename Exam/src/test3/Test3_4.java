@@ -30,7 +30,7 @@ class Student {
 public class Test3_4 {
 	public static void main(String[] args) {
 		
-		Student.studentId = 20201000;
+		Student.studentId = 20201000;      // studentId 변수를 직접 참조 = static 이어야 한다.
 		
 		Student kim = new Student("김유신","국문과",1);
 		kim.studentInfo();

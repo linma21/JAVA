@@ -8,7 +8,7 @@ class Vehicle {
 	private String name;
 	private int price;
 	
-	public Vehicle(String name, int price) {
+	public Vehicle(String name, int price) {   //클래스와 이름이 같으면 생성자 메서드
 		this.name = name;
 		this.price = price;
 	}
@@ -21,10 +21,10 @@ class Vehicle {
 	}
 }
 class CarFactory {
-	private static CarFactory instance = new CarFactory();
+	private static CarFactory instance = new CarFactory();  //싱글톤 패턴 - private로 외부 입력을 막는다.
 	private CarFactory() {}
 	
-	public static CarFactory getInstance() {
+	public static CarFactory getInstance() {      //싱글톤 패턴 - 외부 입력할 수있는 Getter 설정한다.
 		return instance;
 	}
 	
@@ -37,7 +37,7 @@ class CarFactory {
 public class Test3_5 {
 	public static void main(String[] args) {
 		
-		CarFactory factory = CarFactory.getInstance(); /////////
+		CarFactory factory = CarFactory.getInstance(); //new Carfactory 불가 - private 로 막아놨음 -Getter 사용해야함
 		
 		Vehicle avante = factory.createCar("아반테", 2500);
 		Vehicle sonata = factory.createCar("소나타", 3000);

@@ -7,7 +7,7 @@ package test3;
 
 class Adder {
 	
-	private static Adder instance = new Adder();
+	private static Adder instance = new Adder();  //싱글톤 패턴
 	public static Adder getInstance() {
 		return instance;
 	}
@@ -22,12 +22,13 @@ class Adder {
 	public void add(int x, int y) {
 		this.x += x;
 		y++;
+		
 	}
 	public void add(int[] arr) {
 		this.x += arr[0];
 		this.y += arr[1];
 	}
-	public static void add(Adder a2) {
+	public static void add(Adder a2) { //
 		a2.x += 10;
 	}
 	public static Adder add(Adder a3,int value) {
@@ -50,11 +51,10 @@ public class Test3_6 {
 		a1.add(arr);
 		a1.show();
 		
-		Adder.add(a1);
+		Adder.add(a1);   //클래스로 호출 한다 - static 메서드 이다.
 		a1.show();
 		
 		a1 = Adder.add(a1, 3);
 		a1.show();
 	}
-
 }

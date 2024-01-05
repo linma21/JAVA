@@ -5,8 +5,8 @@ package test3;
  * 내용 : 자바 클래스 상속 연습 문제
  */
 class Customer {
-	private int id;
-	private String name;
+	protected int id;
+	protected String name;
 	protected String grade;
 	protected int point;
 	protected double pointRatio;
