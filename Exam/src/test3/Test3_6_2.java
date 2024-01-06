@@ -21,9 +21,9 @@ class Adder2 {
 	
 	public void add(int x, int y) {
 		this.x += x;
-		
-		y++;	
 		this.y += y;
+		y++;	
+		
 	}	
 	public void show() {
 		System.out.println("x :"+x);
