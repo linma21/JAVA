@@ -1,5 +1,8 @@
 package ch05.sec12;
 //197
+
+import java.util.*;
+
 public class WeekExample {
 	public static void main(String[] args) {
 		
