@@ -8,9 +8,9 @@ public class WeekExample {
 		
 		Week today = null;
 		
-		Calender cal = Calender.getInstance();
+		Calendar cal = Calendar.getInstance();
 		
-		int week = cal.get(Calender.DAY_OF_WEEK);
+		int week = cal.get(Calendar.DAY_OF_WEEK);
 		
 		
 		switch(week) {
