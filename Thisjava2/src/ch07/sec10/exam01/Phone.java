@@ -16,5 +16,4 @@ public abstract class Phone {
 	void turnOff() {
 		System.out.println("폰 전원을 끕니다.");
 	}
-
 }

@@ -7,8 +7,6 @@ public class PhoneExam {
 		
 		smartPhone.turnOn();
 		smartPhone.internetSearch();
-		smartPhone.turnOff();
-		
+		smartPhone.turnOff();		
 	}
-
 }
