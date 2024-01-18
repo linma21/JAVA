@@ -1,8 +1,8 @@
 #Java 프로그래밍
 
-# **Ch01 Java 개발 환경 구축**  
+## **Ch01 Java 개발 환경 구축**  
 | sub1.Hello World 실습
-# **Ch02 Java 변수와 연산자**
+## **Ch02 Java 변수와 연산자**
 | sub1.변수 실습
 | sub2.변수의 자료형 실습
 | sub3.연산자 실습
