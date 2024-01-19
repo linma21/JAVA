@@ -4,8 +4,11 @@
 | sub1.Hello World 실습
 ### **Ch02 Java 변수와 연산자**
 | sub1.변수 실습
+
 | sub2.변수의 자료형 실습
+
 | sub3.연산자 실습
+
 ### **Ch03 Java 제어문**  
 | sub1.if 조건문 실습
 | sub2.switch 조건문 실습
