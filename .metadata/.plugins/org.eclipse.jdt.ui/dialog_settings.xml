@@ -47,7 +47,7 @@
 	<section name="SourceActionDialog.methods">
 		<item key="FinalModifier" value="false"/>
 		<item key="SynchronizedModifier" value="false"/>
-		<item key="Comments" value="false"/>
+		<item key="Comments" value="true"/>
 		<item key="LimitElements" value="false"/>
 		<item key="IgnoreDefault" value="true"/>
 		<item key="StringStyle" value="0"/>
