@@ -1,5 +1,23 @@
 package step4;
 
-public class Main2 {
+import java.util.Scanner;
 
+public class Main2 {
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		int n = sc.nextInt();
+		int x = sc.nextInt();
+		int[] arr = new int[n];
+		
+		for(int i =0; i <n; i++) {
+			int a = sc.nextInt();
+			arr[i] = a;
+		}
+		for(int a : arr) {
+			if(a<x) {
+				System.out.print(a+" ");
+			}
+		}
+	}
 }

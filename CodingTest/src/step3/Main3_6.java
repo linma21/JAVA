@@ -3,23 +3,29 @@ package step3;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.StringTokenizer;
 
 public class Main3_6 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        int T = Integer.parseInt(br.readLine());
+        try {
+            int t = Integer.parseInt(br.readLine());
 
-        for (int i = 0; i < T; i++) {
-            StringTokenizer st = new StringTokenizer(br.readLine());
-            int A = Integer.parseInt(st.nextToken());
-            int B = Integer.parseInt(st.nextToken());
-
-            System.out.println(A + B);
+            for (int i = 0; i < t; i++) {
+                String[] input = br.readLine().split(" ");
+                int a = Integer.parseInt(input[0]);
+                int b = Integer.parseInt(input[1]);
+                System.out.println(a + b);
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        } finally {
+            try {
+                if (br != null) br.close();
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
-
-        // BufferedReader 닫기 (선택적)
-        br.close();
     }
 }
+
